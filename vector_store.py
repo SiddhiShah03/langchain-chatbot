@@ -1,5 +1,5 @@
 from langchain_community.vectorstores import FAISS
-from langchain_huggingface import HuggingFaceEmbeddings  # ✅ Updated import
+from langchain_huggingface import HuggingFaceEmbeddings 
 
 
 def create_vector_store(documents):
